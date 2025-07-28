@@ -9,7 +9,7 @@ const getScore = () => {
 	scoreInput2 = Number(scoreInput);
 		}
 	
-	return scoreInput
+	return scoreInput2
 }
 
 function calcGrade (score){
