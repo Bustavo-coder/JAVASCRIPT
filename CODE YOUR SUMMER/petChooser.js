@@ -1,5 +1,8 @@
 const prompt = require('prompt-sync')()
-const pet = prompt("Pick Your Favorite Pet ").toLowerCase()
+function getPet(animal) {
+		if(animal === 'dog') return ('Woof! Dogs Are Awesome')
+		else return`${pet} are Cool choice, but i love dogs!`
+	}
 
-if(pet == 'dog')console.log('Woof! Dogs Are Awesome')
-else console.log(`${pet} are Cool choice, but i love dogs!`)
+const pet = prompt("Pick Your Favorite Pet ").toLowerCase()
+console.log(getPet(pet))
