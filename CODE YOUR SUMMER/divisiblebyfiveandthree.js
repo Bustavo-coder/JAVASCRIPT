@@ -6,4 +6,4 @@ function checkDivisibleby (numb){
 
 const prompt = require('prompt-sync')()
 userNumber = prompt("Enter The Ranage To Check ")
-checkDivisibleby(userNumber)
+checkDivisibclsleby(userNumber)
